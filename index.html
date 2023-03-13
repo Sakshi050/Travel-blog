@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo1.jpg" alt="Travel Blog">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Travel</a></li>
+            <li class="item"><a href="#">Eat</a></li>
+            <li class="item"><a href="#">Relax</a></li>
+            <li class="item"><a href="#">Videos</a></li>
+            <input type="text" name="search" id="search" placeholder=" Search this website ">
+        </ul>
+    </nav>
+    <div id="centre">
+        <img src="https://www.worldtravelguide.net/wp-content/uploads/2006/12/shu-hero-person-traveling-559055305.jpg"
+        alt="">
+    </div>
+    <section id="part2">
+        <h2>Private & Small Group Day Tours</h2>
+        <p>Unique Destinations Adriatic & Worldwide</p>
+    </section>
+    <section id="part3">
+        <div class="container">
+            <div id="services">
+                <div class="box">
+                    <img src="img/b3.jpg" alt="">
+                    <h2>Travel</h2>
+                </div>
+                <div class="box">
+                    <img src="img/b4.jpg" alt="">
+                    <h2>Eat</h2>
+                </div>
+                <div class="box">
+                    <img src="img/b5.jpg" alt="">
+                    <h2>Relax</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="part4">
+        <div id="logos">
+            <div class="l">
+                <img src="img/twitter.png" alt="">
+            </div>
+            <div class="l">
+                <img src="img/facebook.png" alt="">
+            </div>
+            <div class="l">
+                <img src="img/youtube.png" alt="">
+            </div>
+            <div class="l">
+                <img src="img/pinterest.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="part5">
+        <div id="extras">
+            <div class="image">
+                <img src="img/u1.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="img/u2.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="img/u3.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="img/u4.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="img/u5.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- <section id="part6">
+        <div id="about">
+            <div id="box1">
+                <img src="img/me.jpg" alt="">
+                <span id="me">About Me</span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas asperiores maiores, voluptate beatae corporis autem.</span>
+            </div>
+            <div id="box2">
+                <h2>Join My Mailing List</h2>
+            </div>
+        </div>
+    </section> -->
+    <section id="part6">
+        <h2>Join My Mailing List</h2>
+        <p>*Email</p>
+        <input type="text" name="search" placeholder="  Enter your email address">
+        <button class="btn">Subscribe Now</button>
+        <p class="travel">© 2023 by Travel Blog. Proudly created by Sakshi        </p>
+        <div class="travel">Time now is <span id="time"></span></div>
+    </section>
+    <script>
+        function displayTime(){
+            time.innerHTML=new Date()
+        }
+        setInterval(displayTime,1000)
+    </script>
+</body>
+
+</html>

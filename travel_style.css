@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(45, 163, 163);
+    font-family: 'Playfair Display', serif;
+}
+#logo{
+    margin: 0px 1px;
+}
+#logo img{
+    height: 83px;
+}
+#centre img{
+    height: 590px;
+    width: 1349px;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+
+#navbar::before{
+    content: "";
+    background-image: url('https://static.wixstatic.com/media/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg/v1/fill/w_1349,h_475,al_b,q_85,usm_0.66_1.00_0.01/5bfb6f_26f1a5c736e544e09c63c82a4c792645');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    margin-top: 80px;
+    height:590%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+    /* background-color:rgb(172, 162, 162); */
+    color: black;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+#navbar ul li a{
+    color:white;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px 34px;
+}
+#navbar ul input {
+    margin-left: 249px;
+    height: 30px;
+    width: 252px;
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+}
+#navbar ul li a:hover{
+    background-color:black;
+}
+#part2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 47px;
+}
+#services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box img{
+    height: 288px;
+    width: 430px;
+}
+.box h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.box img:hover{
+    /* height: 280px;
+    width: 432px; */
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px black;
+}
+ /* @keyframes sakshi{
+    from{
+        height: 0px;
+    }
+    to{
+        height:288px;
+    }
+}
+.box img{
+    animation-name: sakshi;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}  */
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+#logos{
+    background-color: white;
+    padding: 38px;
+    margin-top: 75px;
+}
+.l{
+     /* A line below the image: so add this */
+    margin: -25px;
+}
+.l img{
+    height: 50px;
+    width: 53px;
+    /* A line below the image: so add this */
+    position: absolute  
+}
+/* .l img:hover{
+    color:white;
+    background-color: rgb(45, 163, 163); 
+} */
+/* .l p{
+    position: absolute;
+    color: rgb(45, 163, 163);
+} */
+#extras{
+    display: flex;
+    overflow: hidden;
+}
+.image img{
+    height: 205px;
+    width: 270px;
+}
+.image img:hover{
+    opacity: 0.8;
+}
+/* #about{
+    display: flex;
+}
+#part6{
+    background-color: white;
+} 
+#box1{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 12px;
+} */
+/*#box1{
+    display: flex;
+    /* position: relative;
+    flex-direction: column;
+}
+#me{
+    white-space: nowrap;
+    padding: 12px;
+    margin-top: -137px;
+}
+#box2{
+    border: 2px solid red;
+}
+#about img{
+    height: 175px;
+    width: 140px;
+    margin-left: 94px;
+    margin-top: 104px;
+    margin-bottom: 94px;
+}
+span{
+    background-color: white;
+    /* margin-left: -80px;
+}*/
+#part6{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    margin: 50px;
+}
+#part6 input{
+    color: white;
+    border: 2px solid white;
+    width: 370px;
+    height: 31px;
+}
+h2,p{
+    padding: 6px;
+}
+.btn{
+    color: black;
+    background-color:white;
+    height: 31px;
+    width: 373px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+#travel{
+    justify-content: center;
+    margin: 3px 448px;
+}
