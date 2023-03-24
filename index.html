@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Blog</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="slider.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
@@ -26,9 +27,53 @@
             <input type="text" name="search" id="search" placeholder=" Search this website ">
         </ul>
     </nav>
+
+    <!-- <div class="con">
+        <div class="image">
+            <img src="My project (1).jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="My project (2).jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="My project.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="4.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="5.jpg" alt="">
+        </div>
+
+        <div class="button">
+            <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+            <a onclick="nextimg(1)" class="next">&#10095;</a>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div> -->
+    <!-- try -->
+    <!-- <main>
+        <img src="https://plus.unsplash.com/premium_photo-1663025412555-86aa0cde738d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="slide" alt="">
+        <img src="https://images.unsplash.com/photo-1498063401574-13cbee350467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="slide" alt="">
+        <img src="https://images.unsplash.com/photo-1500154040473-d91a2e21a6ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80" class="slide" alt="">
+        <img src="https://images.unsplash.com/photo-1486324142883-bf35968080ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=855&q=80" class="slide" alt="">
+        <div class="btn">
+            <button><i class='bx bx-chevron-left'></i></button>
+            <button><i class='bx bx-chevron-right'></i></button>
+        </div>
+    </main> -->
+
+
     <div id="centre">
-        <img src="https://www.worldtravelguide.net/wp-content/uploads/2006/12/shu-hero-person-traveling-559055305.jpg"
-        alt="">
+        <img src="https://images.unsplash.com/photo-1498063401574-13cbee350467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+        alt="oops">
     </div>
     <section id="part2">
         <h2>Private & Small Group Day Tours</h2>
@@ -107,12 +152,11 @@
         <p class="travel">© 2023 by Travel Blog. Proudly created by Sakshi        </p>
         <div class="travel">Time now is <span id="time"></span></div>
     </section>
-    <script>
-        function displayTime(){
-            time.innerHTML=new Date()
-        }
-        setInterval(displayTime,1000)
-    </script>
+    <script src="travel.js"></script>
+        <!-- // function displayTime(){
+        //     time.innerHTML=new Date()
+        // }
+        // setInterval(displayTime,1000) -->
 </body>
 
 </html>
